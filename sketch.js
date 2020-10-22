@@ -9,13 +9,13 @@ var drops = [];
 var lightning;
 var lightningGroup;
 
-function preload() {
+/*function preload() {
     lightning1_img = loadImage("images/1.png");
     lightning2_img = loadImage("images/2.png");
     lightning3_img = loadImage("images/3.png");
     lightning4_img = loadImage("images/4.png");
 
-}
+}*/
 function setup() {
     createCanvas(500, 600);
     
@@ -44,7 +44,7 @@ function draw() {
  
 }
 
-function lightning() {
+/*function lightning() {
     if(frameCount % 20 === 0) {
         lightning = createSprite(150,20,40,40);
         var rand = Math.round(random(1,4));
@@ -61,4 +61,4 @@ function lightning() {
         lightningGroup.add(lightning);
         lightning.lifeTime = 10; 
     }
-}
+}*/
